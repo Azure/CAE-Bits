@@ -1,0 +1,40 @@
+{
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "enum": [
+        "https://raw.githubusercontent.com/Azure/CAE-Bits/main/schemas/schema.metadata.json#"
+      ],
+      "description": "CAE Bits repo metadata file JSON schema reference."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 100,
+      "description": "The name of the artifact."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 240,
+      "description": "The description of the artifact."
+    },
+    "owner.gh": {
+      "type": "string",
+      "pattern": "^(?:Azure\\/)?[a-zA-Z\\d](?:[a-zA-Z\\d]|-(?=[a-zA-Z\\d])){0,38}$",
+      "description": "The owner of the module. Must be a GitHub username or team under the Azure organization."
+    },
+    "owner.ms": {
+      "type": "string",
+      "description": "The owner of the module. Must be a Microsoft alias."
+    }
+  },
+  "required": [
+    "$schema",
+    "name",
+    "description",
+    "owner.gh",
+    "owner.ms"
+  ],
+  "additionalProperties": false
+}

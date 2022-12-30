@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/Azure/CAE-Bits/main/schemas/schema.metadata.json#",
   "name": "Sample: Check Resource Property with Deployment Scripts",
   "description": "Use Deployment Scripts in ARM Templates/Bicep to await a resource's property desired state to help you orchestrate end-to-end deployments",
   "owner.gh": "jtracey93",
