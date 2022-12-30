@@ -26,7 +26,9 @@ This sample deploys the following resources using Bicep:
 
 #### Architectural
 
-<TBC>
+![Architecture Diagram](img/deployment-scripts-property-check.png)
+
+> *Download a [Visio file](img/deployment-script-property-check.vsdx) of this architecture.*
 
 #### Bicep Visualizer
 
