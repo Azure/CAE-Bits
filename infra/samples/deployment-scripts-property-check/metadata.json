@@ -1,0 +1,6 @@
+{
+  "name": "Sample: Check Resource Property with Deployment Scripts",
+  "description": "Use Deployment Scripts in ARM Templates/Bicep to await a resource's property desired state to help you orchestrate end-to-end deployments",
+  "owner.gh": "jtracey93",
+  "owner.ms": "jatracey"
+}
