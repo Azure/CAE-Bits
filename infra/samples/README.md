@@ -8,5 +8,4 @@ Here are sample end-to-end scenarios/deployments relating to Azure Infrastructur
 
 | Sample Name                                     | Description                                                                                                                               | Link                                                |
 | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| Check Resource Property with Deployment Scripts | Use Deployment Scripts in ARM Templates/Bicep to await a resource's property desired state to help you orchestrate end-to-end deployments | [Here](deployment-scripts-property-check/README.md) |
-|                                                 |                                                                                                                                           |                                                     |
+| Check Resource Property with Deployment Scripts | Use Deployment Scripts in ARM Templates/Bicep to await a resource's property desired state to help you orchestrate end-to-end deployments | [Here](deployment-scripts-property-check) |
