@@ -28,7 +28,7 @@ This sample deploys the following resources using Bicep:
 
 ![Architecture Diagram](img/deployment-scripts-property-check.png)
 
-> *Download a [Visio file](img/deployment-script-property-check.vsdx) of this architecture.*
+> *Download a [Visio file](https://github.com/Azure/CAE-Bits/raw/main/infra/samples/deployment-scripts-property-check/img/deployment-script-property-check.vsdx) of this architecture.*
 
 #### Bicep Visualizer
 
