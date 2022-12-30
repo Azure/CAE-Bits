@@ -14,7 +14,7 @@ param vwanName string
 
 @description('Tags to apply to applicable resoruces')
 param defaultTags object = {
-  'IaC-Source': 'jtracey93/PublicScripts'
+  'IaC-Source': 'Azure/CAE-Bits'
 }
 
 resource vwanExisting 'Microsoft.Network/virtualWans@2021-02-01' existing = {

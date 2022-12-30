@@ -6,7 +6,7 @@ param regionNamePrefix string = 'uks'
 
 @description('Tags to apply to applicable resoruces')
 param defaultTags object = {
-  'IaC-Source': 'jtracey93/PublicScripts'
+  'IaC-Source': 'Azure/CAE-Bits'
 }
 
 resource vwan 'Microsoft.Network/virtualWans@2021-02-01' = {
@@ -18,7 +18,7 @@ resource vwan 'Microsoft.Network/virtualWans@2021-02-01' = {
     allowVnetToVnetTraffic: true
     disableVpnEncryption: false
     type: 'Standard'
-  }  
+  }
 }
 
 output vwanName string = vwan.name

@@ -5,7 +5,7 @@ param region string = 'uksouth'
 
 @description('Tags to apply to applicable resoruces')
 param defaultTags object = {
-  'IaC-Source': 'jtracey93/PublicScripts'
+  'IaC-Source': 'Azure/CAE-Bits'
 }
 
 @description('Array of VNET objects, including and array of Subnets.')

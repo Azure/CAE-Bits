@@ -8,7 +8,7 @@ param regionNamePrefix string = 'uks'
 
 @description('Tags to apply to applicable resoruces')
 param defaultTags object = {
-  'IaC-Source': 'jtracey93/PublicScripts'
+  'IaC-Source': 'Azure/CAE-Bits'
   DemoOf: 'Deployment Scripts Property Checker With VWAN, VWAN Hub & 3 Spokes'
 }
 
