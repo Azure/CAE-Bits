@@ -95,7 +95,7 @@ module modVWAN './modules/vwan.bicep' = {
   }
 }
 
-module modVWANHub 'modules/vwanhub.bicep' = {
+module modVWANHub 'modules/vwanHub.bicep' = {
   scope: rsg
   name: 'deployVWANHub'
   params: {
@@ -121,7 +121,7 @@ module modVWANHubRouterCheckerDeploymentScript 'modules/azResourceStateCheck.bic
   }
 }
 
-module modVWanVhubVnetConnections 'modules/vwanvhcs.bicep' = {
+module modVWanVhubVnetConnections 'modules/vwanVhcs.bicep' = {
   dependsOn: [
     modVWANHubRouterCheckerDeploymentScript
   ]
