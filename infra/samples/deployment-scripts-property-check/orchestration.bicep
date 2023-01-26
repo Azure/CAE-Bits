@@ -6,7 +6,7 @@ param region string = 'uksouth'
 @description('Azure region naming prefix')
 param regionNamePrefix string = 'uks'
 
-@description('Tags to apply to applicable resoruces')
+@description('Tags to apply to applicable resources')
 param defaultTags object = {
   'IaC-Source': 'Azure/CAE-Bits'
   DemoOf: 'Deployment Scripts Property Checker With VWAN, VWAN Hub & 3 Spokes'
@@ -15,7 +15,7 @@ param defaultTags object = {
 @description('CIDR block for VWAN Hub')
 param vwanHubCIDR string = '10.0.0.0/23'
 
-@description('Array of VNET objects, including and array of Subnets.')
+@description('Array of VNET objects, including an array of Subnets.')
 param vnets array = [
   {
     name: 'vnet-uks-1'

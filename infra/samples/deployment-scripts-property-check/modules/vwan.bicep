@@ -4,7 +4,7 @@ param region string = 'uksouth'
 @description('Azure region naming prefix')
 param regionNamePrefix string = 'uks'
 
-@description('Tags to apply to applicable resoruces')
+@description('Tags to apply to applicable resources')
 param defaultTags object = {
   'IaC-Source': 'Azure/CAE-Bits'
 }

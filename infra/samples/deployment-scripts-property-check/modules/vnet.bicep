@@ -3,12 +3,12 @@ targetScope = 'resourceGroup'
 @description('Azure region to deploy to')
 param region string = 'uksouth'
 
-@description('Tags to apply to applicable resoruces')
+@description('Tags to apply to applicable resources')
 param defaultTags object = {
   'IaC-Source': 'Azure/CAE-Bits'
 }
 
-@description('Array of VNET objects, including and array of Subnets.')
+@description('Array of VNET objects, including an array of Subnets.')
 param vnets array = [
   {
     name: 'vnet-uks-1'

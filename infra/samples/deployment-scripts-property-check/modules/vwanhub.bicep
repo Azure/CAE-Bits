@@ -12,7 +12,7 @@ param vwanHubCIDR string = '10.0.0.0/23'
 @description('VWAN Name')
 param vwanName string
 
-@description('Tags to apply to applicable resoruces')
+@description('Tags to apply to applicable resources')
 param defaultTags object = {
   'IaC-Source': 'Azure/CAE-Bits'
 }
